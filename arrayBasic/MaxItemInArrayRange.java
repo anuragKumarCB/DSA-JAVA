@@ -13,7 +13,7 @@ public class MaxItemInArrayRange {
         }
 
         System.out.println(Arrays.toString(arr));
-        System.out.println("maximum value in range between index 3-8 "+maxInRange(arr, 3,8));
+        System.out.println("maximum value in range between index 3-8 "+maxInRange(arr, 3,8)); //you can change index here
     }
     static int maxInRange(int[] arr, int start, int end){
         int maxValue = arr[start];
