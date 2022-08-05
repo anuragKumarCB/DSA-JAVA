@@ -15,9 +15,6 @@ public class LinearSearchReturnElement {
         System.out.println("enter the target element");
         int target = in.nextInt();
         System.out.println(linearSearch(nums,target));
-        int checkMax = Integer.MAX_VALUE;
-        int checkMin = Integer.MIN_VALUE;
-        System.out.println("min = "+checkMin + "max = "+checkMax );
     }
 
 //    search in array : return the element if item/target found
